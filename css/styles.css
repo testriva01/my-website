@@ -122,6 +122,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  line-height: 150%
+
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -167,6 +169,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-weight: normal;
 }
 
 abbr[title] {
@@ -2849,7 +2852,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #2675EC;
   --bs-btn-border-color: #2675EC;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #232fcc;
+  --bs-btn-hover-bg: #3D434B;
   --bs-btn-hover-border-color: #212cc0;
   --bs-btn-focus-shadow-rgb: 73, 85, 242;
   --bs-btn-active-color: #fff;
@@ -8091,7 +8094,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #525252 !important;
 }
 
 .text-black-50 {
@@ -10833,6 +10836,10 @@ html {
   background-color: #000 !important;
 }
 
+.bg-blue {
+  background-color: #2675EC !important;
+}
+
 .bg-gradient-primary-to-secondary {
   background: linear-gradient(45deg, #2675EC, #2675EC) !important;
 }
@@ -11160,3 +11167,7 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+
+
+
